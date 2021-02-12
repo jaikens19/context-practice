@@ -3,7 +3,6 @@ import coffeeBeans from '../mockData/coffeeBeans.json';
 
 const SetCoffeeBean = ({ coffeeBeans }) => {
   const {coffeeBean, setCoffeeBeanId} = useCoffee()
-  console.log(coffeeBeans)
   return (
     <div className="set-coffee-bean">
       <h2>Select a Coffee Bean</h2>
